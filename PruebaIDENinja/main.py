@@ -7,7 +7,7 @@ from PyQt4 import uic
 app= QApplication(sys.argv)
 
 w= uic.loadUi('/Users/Dennise/Desktop/ProyectoLP.ui')
-
+w.setWindowTitle('Ventana de Juego')
 w.setWindowIcon(QtGui.QIcon('icono.jpg'))
 
 w.show()
