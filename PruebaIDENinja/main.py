@@ -7,8 +7,6 @@ from PyQt4 import uic
 app= QApplication(sys.argv)
 
 w= uic.loadUi('/Users/Dennise/Desktop/ProyectoLP.ui')
-w.setGeometry(300,300,250,150)
-w.setWindowTitle('Proyecto')
-
+w.setWindowTitle('Sudoku en Python')
 w.show()
 sys.exit(app.exec_())
