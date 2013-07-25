@@ -7,7 +7,7 @@ from PyQt4 import uic
 app= QApplication(sys.argv)
 
 w= uic.loadUi('/Users/Dennise/Desktop/ProyectoLP.ui')
-w.setWindowTitle('Proyecto de Phyton')
+w.setGeometry(300,300,250,150)
 w.setWindowIcon(QtGui.QIcon('icono.jpg'))
 
 w.show()
